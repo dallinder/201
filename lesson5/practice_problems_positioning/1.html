@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>1</title>
+    <meta charset="UTF-8" />
+    <style>
+      article {
+        background-color: #656565;
+      }
+
+      #positioned {
+        position: absolute;
+        top: 25px;
+        right: 50%;
+        margin-right: -200px;
+        width: 400px;
+        padding: 30px 15px;
+        background-color: #FBFFC7;
+        z-index: 2;
+        box-sizing: border-box;
+      }
+
+      header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        background: rgba(0, 0, 0, .6);
+        z-index: 1;
+      }
+
+      span {
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        width: 20px;
+        height: 20px;
+        background: #fcfc99;
+
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <article>
+      <p>
+        orem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus consectetur
+        vulputate. Praesent in mattis nisl. Duis augue diam, laoreet imperdiet
+        fringilla ut, iaculis id dui. Praesent congue mauris a efficitur commodo.
+        Fusce a nisi nec diam hendrerit egestas. Aliquam leo justo, malesuada ac
+        justo non, hendrerit gravida nibh. Morbi viverra dictum odio nec tempor.
+        Praesent egestas interdum leo, eget mollis leo imperdiet eu. Cras interdum
+        ornare libero a lobortis. Pellentesque risus leo, consequat in aliquet
+        vehicula, tristique ac felis. In et euismod mi, in pretium felis. Class
+        aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+        himenaeos. In eget lorem a ex ultricies accumsan. Fusce tempor fringilla
+        rhoncus. Vivamus ut ligula nec libero facilisis ullamcorper.
+      </p>
+      <p>
+        Fusce vitae metus a augue vestibulum sodales. Quisque ac diam mollis magna
+        mattis luctus vitae et nisl. Nunc vehicula quam eget lacus tincidunt mattis.
+        Fusce tempor, arcu ultrices interdum congue, arcu augue rutrum turpis,
+        non scelerisque metus justo ultricies justo. Nunc odio tellus, maximus
+        quis odio vitae, tristique dignissim turpis. Donec eu arcu ac ante volutpat
+        consectetur nec vitae eros. Aliquam erat volutpat. In non nulla in elit
+        ornare egestas. Nullam nec volutpat ex. Integer feugiat nibh in ante
+        mollis malesuada. Cras vestibulum elit mauris, nec faucibus risus maximus
+        ac. Nam nec ante et mi pulvinar cursus. Nunc quis volutpat augue. Nulla
+        facilisi. Pellentesque elementum sapien velit, molestie maximus lorem
+        posuere vitae. Etiam bibendum nulla sit amet maximus viverra.
+      </p>
+      <p>
+        In eu nisi vel nisl gravida sollicitudin. Quisque feugiat lorem at libero
+        rutrum tincidunt. Sed ligula mi, placerat nec gravida eleifend, aliquam vel
+        erat. Nunc leo neque, bibendum sed pellentesque at, maximus vitae urna.
+        Integer lacinia, lorem eu suscipit maximus, elit leo laoreet dui, quis
+        varius justo lectus sed eros. Nam ligula tellus, vestibulum a sem sed,
+        condimentum feugiat lacus. Ut quis eros aliquam, aliquet lorem gravida,
+        accumsan lorem. Sed egestas eget nunc sit amet ullamcorper. Nullam iaculis
+        neque vel dolor sodales porttitor. Donec dictum erat ac turpis facilisis,
+        vel bibendum nisl consequat. Donec ut molestie ex. Vivamus lacus orci,
+        imperdiet sed ullamcorper eget, feugiat et eros.
+      </p>
+    </article>
+    <div id="positioned">
+      <span></span>
+      I'm positioned!
+    </div>
+
+  </body>
+</html>
